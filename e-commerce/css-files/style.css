@@ -12,6 +12,7 @@ used colour
     margin: 0;
 }
 
+
 /* for header */
 .container {
     width: 100%;
@@ -120,6 +121,7 @@ used colour
     text-transform: capitalize;
 }
 
+/* hero section */
 .hero-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
