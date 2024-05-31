@@ -314,6 +314,9 @@ a{
     .trending-name {
         font-size: 12px;
     }
+    .face-heading{
+        padding: 20px 0;
+    }
 
     /* footer-sec */
     .footer-grid {
@@ -343,6 +346,10 @@ a{
 
     .footer-grid {
         grid-template-columns: 1fr 0.7fr 0.5fr;
+    }
+    .face-heading{
+        padding: 15px 0;
+        font-size: 60px;
     }
 }
 
@@ -386,6 +393,7 @@ a{
 
     .trending {
         width: 135px;
+        font-size: 12px;
     }
 
     .trending-name {
@@ -394,6 +402,10 @@ a{
 
     #btn {
         padding: 8px 42px;
+    }
+    .face-heading{
+        padding: 10px 0;
+        font-size: 55px;
     }
 
     /* footer sec */
@@ -449,6 +461,9 @@ a{
     .social {
         justify-content: center;
     }
+    .face-heading{
+        font-size: 50px;
+    }
 
     .footer-img-container {
         width: 25px;
@@ -467,6 +482,9 @@ a{
 
     .trending-name {
         font-size: 8px;
+    }
+    .face-heading{
+        font-size: 40px;
     }
 
 }
