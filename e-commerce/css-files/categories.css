@@ -126,6 +126,9 @@ a{
     border-bottom: 1px solid #bb3d3d;
     text-transform: capitalize;
 }
+#face{
+    background: linear-gradient(#e66e6e, #F9C7BA);
+}
 .trending-sec {
     background-color: #FFD7C7;
 }
