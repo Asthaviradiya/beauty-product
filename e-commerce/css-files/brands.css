@@ -116,14 +116,17 @@
     height: 65px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 18px;
     background: linear-gradient(#e66e6e, #FFD7C7);
+    padding: 10px;
     
 }
 a{
     text-decoration: none;
     color: #b73535;
+    
 }
 
 /* for all brands */
@@ -224,4 +227,397 @@ a{
 }
 #nails{
     background-image: linear-gradient(to bottom, #FFD7C7, #e38e86);
+}
+.brands-sec .menu-btn{
+    display: none;
+}
+
+
+/* for footer */
+.footer-sec {
+    background-image: linear-gradient(to bottom, #e38e86, #e66e6e);
+    /* background-image: linear-gradient(to bottom, #FFD7C7, #e38e86); */
+    /* background-color: #e66e6e; */
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 0.5fr 0.85fr 1.3fr;
+    gap: 35px;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    font-weight: 800;
+    color: #6b0000;
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: #6b0000;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    line-height: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-around; */
+}
+
+.footer-img-container img {
+    width: 100%;
+    height: 100%;
+    /* filter: grayscale(60%); */
+}
+
+.footer-img-container {
+    width: 30px;
+    aspect-ratio: 1;
+}
+
+.help-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.help-container a {
+    font-size: 16px;
+    color: #6b0000;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+}
+
+.email-input {
+    background-color: #E58482;
+    outline: none;
+    border: none;
+    padding: 15px 0;
+    color: #6b0000;
+    border-bottom: 1px solid #6b0000;
+}
+
+.email-input::placeholder {
+    color: #6b0000;
+}
+
+.footer-btn {
+    width: 150px;
+    padding: 10px 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #6b0000;
+    /* color: #E58482; */
+    color: #f4aeae;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* meadia query */
+
+@media screen and (max-width:1333px) {
+    .trending {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:1258px) {
+
+    .search-container {
+        width: 16%
+    }
+
+    #search::placeholder {
+        font-size: 100%;
+    }
+
+    .profile {
+        width: 34px;
+    }
+
+    .cart {
+        width: 28px;
+    }
+
+    /* main section */
+
+    .trending {
+        width: 200px;
+    }
+
+    .trending-grid {
+        padding: 10px;
+    }
+
+    #btn {
+        padding: 9px 75px;
+    }
+
+    .blog-section .trending {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .trending {
+        width: 180px;
+    }
+
+    #btn {
+        padding: 9px 68px;
+    }
+
+    .trending-name {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .header-container {
+        justify-content: space-around;
+    }
+
+    .search-container {
+        width: 35%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .padding-container {
+        padding: 0 25px;
+    }
+
+    /* trending sec */
+    .trending-sec .brand-heading {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .trending-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .trending {
+        width: 190px;
+    }
+
+    #btn {
+        padding: 9px 60px;
+    }
+
+    .trending-name {
+        font-size: 12px;
+    }
+    .face-heading{
+        padding: 20px 0;
+    }
+
+    /* footer-sec */
+    .footer-grid {
+        grid-template-columns: 1fr 0.7fr 0.5fr 0.85fr;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .trending {
+        width: 160px;
+    }
+
+    #btn {
+        padding: 9px 55px;
+    }
+    .brands-name{
+        column-gap: 15px;
+    }
+
+}
+
+@media screen and (max-width:719px) {
+
+    .trending-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .trending {
+        width: 160px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 0.7fr 0.5fr;
+    }
+    .face-heading{
+        padding: 15px 0;
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    
+
+    .search-container {
+        width: 35%;
+        height: 15%;
+    }
+
+    #search::placeholder {
+        font-size: 90%;
+    }
+
+    .profile {
+        width: 29px;
+    }
+
+    .cart {
+        width: 24px;
+    }
+
+    .padding-container {
+        padding: 0 25px;
+    }
+
+    /* trending section */
+    .trending-sec .brand-heading {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .trending-sec .brand-heading h1 {
+        font-size: 28px;
+    }
+
+    .trending-sec .brand-heading h3 {
+        font-size: 15px;
+    }
+
+    .trending {
+        width: 135px;
+        font-size: 12px;
+    }
+
+    .trending-name {
+        font-size: 10.5px;
+    }
+
+    #btn {
+        padding: 8px 42px;
+    }
+    .face-heading{
+        padding: 10px 0;
+        font-size: 55px;
+    }
+    .brands-sec .menu-btn{
+        display: block;
+        padding-left: 8px;
+    }
+    .brands-name{
+        display: none;
+    }
+
+    /* footer sec */
+    .footer-grid {
+        grid-template-columns: 1fr 0.7fr;
+    }
+
+    .footer-img-container {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width:453px) {
+    
+    .search-container {
+        width: 35%;
+        height: 10%;
+    }
+
+    #search::placeholder {
+        font-size: 80%;
+    }
+
+    .cart .profile {
+        width: 10px;
+    }
+
+    .padding-container {
+        padding: 0 15px;
+    }
+
+    .hero-section {
+        gap: 0;
+    }
+
+    .trending-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trending {
+        width: 150px;
+    }
+
+    #btn {
+        padding: 6px 40px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+    .face-heading{
+        font-size: 50px;
+    }
+
+    .footer-img-container {
+        width: 25px;
+    }
+    .brands-sec .menu-btn{
+        padding-left: 2px;
+    }
+}
+
+@media screen and (max-width:378px) {
+
+    .trending {
+        width: 125px;
+    }
+
+    #btn {
+        padding: 6px 37px;
+    }
+
+    .trending-name {
+        font-size: 8px;
+    }
+    .face-heading{
+        font-size: 40px;
+    }
+
 }
