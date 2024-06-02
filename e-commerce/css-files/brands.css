@@ -601,6 +601,9 @@ button {
     .brands-sec .menu-btn{
         padding-left: 2px;
     }
+    .heading h1{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:378px) {
@@ -618,6 +621,9 @@ button {
     }
     .face-heading{
         font-size: 40px;
+    }
+    .heading h1{
+        font-size: 15px;
     }
 
 }
