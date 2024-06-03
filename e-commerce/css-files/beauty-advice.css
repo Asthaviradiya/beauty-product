@@ -558,45 +558,12 @@ button {
         font-size: 17px;
     }
 
-    /*==========================  edit from here============================*/
-
-    .main-section .main-grid-img {
-        margin: 5px;
-    }
-
-    .category {
-        padding: 50px 35px 30px;
-    }
-
-    .trending-sec .brand-heading h1 {
-        font-size: 25px;
-    }
-
-    .trending-sec .brand-heading h3 {
-        font-size: 17px;
-    }
-
-    .trending-sec .brand-heading {
-        padding-top: 25px;
-        padding-bottom: 15px;
-    }
-
-    .trending-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .trending {
         width: 150px;
     }
 
     #btn {
         padding: 6px 40px;
-    }
-
-    /* combo sec */
-    .combos-sec .trending {
-        height: 300px;
-        justify-content: space-around;
     }
 
     .blog-section .trending {
@@ -618,29 +585,12 @@ button {
 }
 
 @media screen and (max-width:378px) {
-    .category {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
-    }
-
-    .trending {
-        width: 125px;
-    }
 
     #btn {
         padding: 6px 37px;
     }
 
-    .trending-name {
-        font-size: 8px;
-    }
-
-    .combos-sec .trending {
-        height: 280px;
-        justify-content: space-around;
-    }
-
     .blog-section .trending {
-        width: 300px;
+        width: 280px;
     }
 }
