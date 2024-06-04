@@ -130,9 +130,15 @@
     color: #bb3d3d;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
 }
 
-.brand-heading h3 {
-    color: #ce4e4e;
-    font-size: 20px;
+.aboutpara{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #bb3d3d;
+    font-size: 19.5px;
+    padding: 35px 35px 10px;
+    text-align: center;
 }
