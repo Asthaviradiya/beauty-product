@@ -110,3 +110,29 @@
     color: white;
     text-transform: capitalize;
 }
+
+/* contactUs section */
+.main-section {
+    background-color: #FFD7C7;
+}
+
+.brand-heading {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    gap: 2.5px;
+    border-bottom: 1px solid #e66e6e;
+}
+
+.brand-heading h1 {
+    color: #bb3d3d;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.brand-heading h3 {
+    color: #ce4e4e;
+    font-size: 20px;
+}
