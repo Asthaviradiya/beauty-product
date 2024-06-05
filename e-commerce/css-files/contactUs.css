@@ -157,7 +157,7 @@
 
 .formContent .aboutpara{
     text-align: left;   
-    padding: 10px 5px 20px;
+    padding: 20px 5px;
     text-transform: capitalize;
 }
 .formContent .contactText{
@@ -182,4 +182,49 @@
     margin: 25px 5px;
     border: 1px solid #bb3d3d;
     border-radius: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0 100px; 
+}
+.left{
+    display: flex;
+    gap: 15px;
+}
+.leftlogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #bb3d3d;
+    background-color: #e49393;
+    padding: 5px;
+}
+.leftlogo img{
+    width: 100%;
+    height: 100%;
+}
+.content .aboutpara{
+    padding: 0;
+    gap: 10px;
+    text-align: left;
+}
+.rightlogo{
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #bb3d3d;
+    background-color: #e49393;
+    padding: 5px;
+}
+.rightlogo img{
+    width: 100%;
+    height: 100%;
+}
+.content .aboutpara span{
+    font-weight: 600;
+    padding-right: 10px;
+}
+.content .aboutpara span::after{
+    content: ":";
 }
