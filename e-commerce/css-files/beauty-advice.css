@@ -369,8 +369,6 @@ button {
 
 @media screen and (max-width:1258px) {
 
-    
-
     .search-container {
         width: 16%
     }
@@ -386,16 +384,7 @@ button {
     .cart {
         width: 28px;
     }
-
-    /* main section */
-
-    .trending {
-        width: 200px;
-    }
-
-    .blog-section .trending {
-        width: 300px;
-    }
+    
 }
 
 @media screen and (max-width:1070px) {
