@@ -142,3 +142,44 @@
     padding: 35px 35px 10px;
     text-align: center;
 }
+
+/* for form */
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.contactform {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 42rem);
+    align-items: center;
+}
+
+.formContent .aboutpara{
+    text-align: left;   
+    padding: 10px 5px 20px;
+    text-transform: capitalize;
+}
+.formContent .contactText{
+    width: 90%;
+    height: 30px;
+    background: linear-gradient(#feb4a2 , #f5c1ac);
+    outline: none;
+    border: none;
+    margin: 0 5px;
+}
+#message{
+    max-width: 98%;
+    max-height: 500px;
+}
+#submit-btn{
+    background: linear-gradient(#feb4a2 , #f5c1ac);
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    color: #bb3d3d;
+    font-size: 16px;
+    margin: 25px 5px;
+    border: 1px solid #bb3d3d;
+    border-radius: 10px;
+}
