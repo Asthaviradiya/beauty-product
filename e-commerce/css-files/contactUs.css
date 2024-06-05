@@ -147,6 +147,7 @@
 .form-container{
     display: flex;
     justify-content: center;
+    background-color: #FFD7C7
 }
 .contactform {
     padding-top: 20px;
