@@ -137,7 +137,7 @@
 .aboutpara{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     color: #bb3d3d;
     font-size: 19.5px;
     padding: 10px 35px;
@@ -156,9 +156,7 @@
     font-weight: 600;
     font-size: 19px;
 }
-.whyUsList{
-    background-image: linear-gradient(to bottom, #FFD7C7, #FFD7C7,#FFD7C7,#FFD7C7, #e38e86);
-}
+
 .aboutp span{
     font-weight: 600;
     font-size: 20px;
