@@ -10,6 +10,7 @@
     height: auto;
 }
 
+
 .padding-container {
     padding: 0 45px;
 }
@@ -164,6 +165,10 @@
     font-weight: 600;
     font-size: 20px;
 }
+#privacyPolicy + .aboutpara{
+    background-image: linear-gradient(to bottom, #FFD7C7, #FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7, #e38e86);
+}
+
 
 /* for footer */
 
