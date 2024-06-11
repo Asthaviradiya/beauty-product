@@ -111,6 +111,43 @@
     text-transform: capitalize;
 }
 
+/* question sec */
+.main-section {
+    background-color: #FFD7C7;
+}
+.brand-heading {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    gap: 2.5px;
+    border-bottom: 1px solid #e66e6e;
+}
+
+.brand-heading h1 {
+    color: #bb3d3d;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.brand-heading h3 {
+    color: #ce4e4e;
+    font-size: 20px;
+}
+.aboutpara{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #bb3d3d;
+    font-size: 19.5px;
+    padding: 35px;
+}
+.boldText{
+    font-weight: 600;
+    font-size: 19px;
+}
+
 /* footer sec */
 .footer-sec {
     background-image: linear-gradient(to bottom, #e38e86, #e66e6e);
