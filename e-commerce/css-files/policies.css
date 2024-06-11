@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* for header */
 .container {
     width: 100%;
@@ -9,7 +10,6 @@
     background: linear-gradient(to top, #F9C7BA, #FFD7C7);
     height: auto;
 }
-
 
 .padding-container {
     padding: 0 45px;
@@ -111,7 +111,7 @@
     text-transform: capitalize;
 }
 
-/* shipping policies */
+/* aboutUs section */
 .main-section {
     background-color: #FFD7C7;
 }
@@ -141,10 +141,10 @@
 .aboutpara{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 35px;
     color: #bb3d3d;
     font-size: 19.5px;
-    padding: 10px 35px;
+    padding: 35px;
 }
 .whyUsUl{
     display: flex;
@@ -154,24 +154,14 @@
     list-style-type: circle;
     color: #bb3d3d;
     font-size: 18px;
-    padding: 0 35px 1px;
+    padding: 1px 35px 50px;
 }
 .boldText{
     font-weight: 600;
     font-size: 19px;
 }
 
-.aboutp span{
-    font-weight: 600;
-    font-size: 20px;
-}
-#privacyPolicy + .aboutpara{
-    background-image: linear-gradient(to bottom, #FFD7C7, #FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7, #e38e86);
-}
-
-
-/* for footer */
-
+/* footer sec */
 .footer-sec {
     background-image: linear-gradient(to bottom, #e38e86, #e66e6e);
     /* background-image: linear-gradient(to bottom, #FFD7C7, #e38e86); */
@@ -198,7 +188,7 @@
     color: #6b0000;
 }
 
-.footer-content p{
+.footer-content p {
     font-size: 16px;
     color: #6b0000;
     font-weight: 500;
