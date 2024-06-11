@@ -208,4 +208,56 @@ button {
 a{
     text-decoration: none;
 }
+/* media query */
 
+@media screen and (max-width:1258px) {
+
+    
+
+    .search-container {
+        width: 16%
+    }
+
+    #search::placeholder {
+        font-size: 100%;
+    }
+
+    .profile {
+        width: 34px;
+    }
+
+    .cart {
+        width: 28px;
+    }
+}
+@media screen and (max-width:992px) {
+
+    .header-container {
+        justify-content: space-around;
+    }
+
+    .search-container {
+        width: 35%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+        align-items: center;
+    }
+    .padding-container {
+        padding: 0 25px;
+    }
+    .main-section .brand-heading {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    /* footer-sec */
+    .footer-grid {
+        grid-template-columns: 1fr 0.7fr 0.5fr 0.85fr;
+    }
+}
