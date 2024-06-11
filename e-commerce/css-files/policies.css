@@ -160,6 +160,9 @@
     font-weight: 600;
     font-size: 19px;
 }
+#privacyPolicy+.aboutpara{
+    background-image: linear-gradient(to bottom, #FFD7C7, #FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7,#FFD7C7, #e38e86);
+}
 
 /* footer sec */
 .footer-sec {
