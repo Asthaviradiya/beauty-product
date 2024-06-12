@@ -114,6 +114,7 @@
 /* question sec */
 .main-section {
     background-color: #FFD7C7;
+    text-align: center;
 }
 .brand-heading {
     text-transform: capitalize;
@@ -131,10 +132,6 @@
     font-weight: 900;
 }
 
-.brand-heading h3 {
-    color: #ce4e4e;
-    font-size: 20px;
-}
 .aboutpara{
     display: flex;
     flex-direction: column;
@@ -142,10 +139,31 @@
     color: #bb3d3d;
     font-size: 19.5px;
     padding: 35px;
+    padding-top: 55px;
 }
 .boldText{
     font-weight: 600;
-    font-size: 19px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 40px;
+    background: linear-gradient(to bottom, #f4aeae, #F9C7BA);
+    text-transform: lowercase;
+    font-size: 21px;
+}
+.question p{
+    width: 80%;
+    text-align: left;
+}
+.question-conatainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 /* footer sec */
