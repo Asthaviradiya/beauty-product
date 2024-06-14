@@ -128,13 +128,14 @@
     color: #bb3d3d;
     font-size: 30px;
     font-weight: 900;
+    text-align: center;
 }
 .track-container{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 40%;
-    margin: 50px auto 80px;
+    margin: 50px auto 60px;
     box-shadow: 0 0 22px 7px #bb3d3d, 2px 2px 4.5px 8px #F9C7BA;
     padding: 20px 40px;
     font-size: 18px;
@@ -183,7 +184,19 @@ input{
     font-size: 15px;
    border-top-right-radius: 10px;
    border-bottom-right-radius: 10px;
+   cursor: pointer;
 }
+.radiobtn{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+input[type='radio']{
+    height: 18px;
+    width: 18px;
+    accent-color: #6b0000;
+}
+
 
 /* footer sec */
 .footer-sec {
@@ -281,4 +294,55 @@ button {
 }
 a{
     text-decoration: none;
+}
+
+/* media query */
+
+@media screen and (max-width:1258px) {
+    .search-container {
+        width: 16%
+    }
+
+    #search::placeholder {
+        font-size: 100%;
+    }
+
+    .profile {
+        width: 34px;
+    }
+
+    .cart {
+        width: 28px;
+    }
+}
+@media screen and (max-width:992px) {
+
+    .header-container {
+        justify-content: space-around;
+    }
+
+    .search-container {
+        width: 35%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+        align-items: center;
+    }
+    .padding-container {
+        padding: 0 25px;
+    }
+    .main-section .brand-heading {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    /* footer-sec */
+    .footer-grid {
+        grid-template-columns: 1fr 0.7fr 0.5fr 0.85fr;
+    }
 }
