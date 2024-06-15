@@ -111,6 +111,48 @@
     text-transform: capitalize;
 }
 
+/* terms&condition sec */
+.main-section {
+    background-color: #FFD7C7;
+}
+
+.brand-heading {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    gap: 2.5px;
+    border-bottom: 1px solid #e66e6e;
+}
+
+.brand-heading h1 {
+    color: #bb3d3d;
+    font-size: 30px;
+    font-weight: 900;
+}
+.aboutpara{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #bb3d3d;
+    font-size: 19.5px;
+    padding: 35px;
+}
+.whyUsUl{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-position: inside;
+    list-style-type: circle;
+    color: #bb3d3d;
+    font-size: 18px;
+    padding: 1px 35px 50px;
+}
+.boldText{
+    font-weight: 600;
+    font-size: 19px;
+}
 
 /* footer sec */
 .footer-sec {
